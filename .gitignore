@@ -44,3 +44,5 @@ yarn-error.*
 
 google-services.json
 my-app2-release.keystore
+my-app-distribution-d96d0-firebase-adminsdk-fbsvc-12ebca8889.json
+keystoreDetails.txt

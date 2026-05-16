@@ -5,6 +5,8 @@ workflows:
     environment:
       android_signing:
         - my_keystore
+      groups:
+        - firebase_credentials        # 👈 add this line
       vars:
         PACKAGE_NAME: "com.zahan.todolist"  # 👈 replace with your actual package name from app.json
     scripts:
